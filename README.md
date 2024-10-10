@@ -36,5 +36,24 @@ expo install
 #Para rodar o projeto
 npx expo start
 ````
+## Estrutura do Projeto
+````bash
 
-
+foodie-Delivery/
+│
+├── backend/            # Código do servidor Node.js
+│   ├── config/         # Configurações do projeto
+│   ├── controllers/    # Lógica dos controladores
+│   ├── models/         # Modelos do banco de dados
+│   ├── routes/         # Definição das rotas
+│   └── app.js          # Ponto de entrada do servidor
+│
+├── frontend/           # Código do aplicativo React Native
+│   ├── src/
+│   │   ├── components/ # Componentes React Native
+│   │   ├── screens/    # Telas do aplicativo
+│   │   ├── navigation/ # Configuração de navegação
+│   │   └── App.js      # Ponto de entrada do aplicativo
+│
+└── README.md           # Documentação do projeto
+````
