@@ -9,7 +9,7 @@ export const styles ={
         borderRadius: BORDER_RADIUNS.borderRadiuns,
         padding: 10,
         borderWidth: 1,
-        borderColor: COLORS.light_grey,
+        borderColor: COLORS.medium_red,
         color: COLORS.dark_grey
     },
     label:{

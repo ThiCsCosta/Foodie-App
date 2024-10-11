@@ -4,12 +4,16 @@ import Login from '../screens/login/login.jsx'
 import Registry from '../screens/registro/step_1/registry.jsx';
 import Registry2 from '../screens/registro/step_2/registry2.jsx';
 import { COLORS } from '../constants/themes.js';
+import Home from '../../screens/home/home.jsx';
 
 const Stack = createNativeStackNavigator();
 
 function Routes(){
     return<NavigationContainer>
         <Stack.Navigator>
+            <Stack.Screen name='home' component={Home} options={
+                {headerShown: false}
+            }/>
             <Stack.Screen name='login' component={Login} options={
                 {headerShown: false}
             }/>
